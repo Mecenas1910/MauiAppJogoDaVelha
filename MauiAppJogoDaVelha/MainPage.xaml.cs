@@ -73,5 +73,33 @@ else if (btn10.Text == "O" && btn21.Text == "O" && btn32.Text == "O" ||
 
            
         } // Fecha método 
+
+void Zerar()
+{
+    // Limpa o texto de todos os botões
+    btn10.Text = "";
+    btn11.Text = "";
+    btn12.Text = "";
+    btn20.Text = "";
+    btn21.Text = "";
+    btn22.Text = "";
+    btn30.Text = "";
+    btn31.Text = "";
+    btn32.Text = "";
+
+    // Opcional: Habilita os botões novamente caso tenham sido desativados
+    btn10.IsEnabled = true;
+    btn11.IsEnabled = true;
+    btn12.IsEnabled = true;
+    btn20.IsEnabled = true;
+    btn21.IsEnabled = true;
+    btn22.IsEnabled = true;
+    btn30.IsEnabled = true;
+    btn31.IsEnabled = true;
+    btn32.IsEnabled = true;
+
+    // Resetar outros elementos do jogo, se necessário (como contadores de jogadas).
+}
+        
     } // Fecha Classe
 } // Fecha Namespace
