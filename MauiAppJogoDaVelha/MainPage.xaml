@@ -32,13 +32,13 @@
         <Button x:Name="btn11" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked" />
         <Button x:Name="btn12" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked" />
 
-        <Button Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked" />
-        <Button Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked" />
-        <Button Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked" />
+        <Button x:Name="btn13" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked" />
+        <Button x:Name="btn14" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked" />
+        <Button x:Name="btn15" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked" />
 
-        <Button Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked" />
-        <Button Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked" />
-        <Button Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked" />
+        <Button x:Name="btn16" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked" />
+        <Button x:Name="btn17" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked" />
+        <Button x:Name="btn18" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked" />
 
     </Grid>
 
